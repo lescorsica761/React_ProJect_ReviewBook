@@ -1,0 +1,89 @@
+.review-card {
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 14px;
+  transition: 0.2s ease;
+}
+
+.review-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.review-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.review-info h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.rating {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #ffd700;
+}
+
+.date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn {
+  background: #4d94ff;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  background: #1a73e8;
+  transform: translateY(-1px);
+}
+
+.edit-btn:active {
+  transform: translateY(0px);
+}
+
+/* 삭제 버튼(기존 디자인도 개선) */
+.delete-btn {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #d93636;
+  transform: translateY(-1px);
+}
+
+.review-content {
+  margin-top: 14px;
+  background: #fafafa;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
